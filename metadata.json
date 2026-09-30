@@ -1,0 +1,6 @@
+{
+  "name": "DualDev - Academia de Programação",
+  "description": "Aprenda Java, Python, JavaScript, HTML e CSS na prática com lições interativas, editor de código e execução em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

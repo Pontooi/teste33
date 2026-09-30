@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DualDev - Academia de Programação</title>
+    <meta name="description" content="Aprenda Java, Python, JavaScript, HTML e CSS na prática com lições interativas, editor de código e execução em tempo real." />
+    <meta property="og:title" content="DualDev - Academia de Programação" />
+    <meta property="og:description" content="Aprenda Java, Python, JavaScript, HTML e CSS na prática com lições interativas, editor de código e execução em tempo real." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Garante a barra final na URL do repositório no GitHub Pages para que assets relativos nunca dêem 404
+      if (window.location.pathname.split('/').pop().indexOf('.') === -1 && !window.location.pathname.endsWith('/')) {
+        window.location.replace(window.location.pathname + '/' + window.location.search + window.location.hash);
+      }
+    </script>
+  </head>
+  <body class="min-h-screen bg-[#0b0813] text-purple-100 selection:bg-purple-600/30 selection:text-purple-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
